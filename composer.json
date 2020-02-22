@@ -1,0 +1,17 @@
+{
+    "name": "sheld/contentbox",
+    "description": "a component for saving contents.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sheldon gen",
+            "email": "imustgxd@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sheld\\Contentbox\\": "src/"
+        }
+    }
+}
