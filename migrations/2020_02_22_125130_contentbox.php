@@ -13,7 +13,7 @@ class Contentbox extends Migration
      */
     public function up()
     {
-        Schema::create('contentbox', function (Blueprint $table) {
+        Schema::create('contentboxes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title')->nullable(false);
             $table->unsignedInteger('belongto')->default(0);
@@ -31,6 +31,6 @@ class Contentbox extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contentbox');
+        Schema::dropIfExists('contentboxes');
     }
 }
