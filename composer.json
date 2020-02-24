@@ -9,6 +9,13 @@
         }
     ],
     "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sheld\\Contentbox\\ContentboxServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Sheld\\Contentbox\\": "src/"
