@@ -17,6 +17,7 @@ class Contentbox extends Migration
             $table->bigIncrements('id');
             $table->string('title')->nullable(false);
             $table->unsignedInteger('belongto')->default(0);
+            $table->unsignedSmallInteger('status')->default(0);
             $table->longText('contentHtml');
             $table->json('extras');
             $table->softDeletes();
